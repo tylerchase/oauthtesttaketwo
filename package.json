@@ -4,10 +4,16 @@
   "description": "Passport strategy for Google OAuth 2.0",
   "main": "./example/app.js",
   "directories": {
-    "example": "examples",
+    "example": "example",
     "test": "test"
   },
   "dependencies": {
+    "connect-redis": "^3.1.0",
+    "ejs": ">= 0.0.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.1",
+    "passport": ">= 0.0.0",
+    "passport-google-oauth2": ">= 0.0.0",
     "passport-oauth2": "^1.1.2"
   },
   "devDependencies": {

@@ -1,5 +1,6 @@
-var express          = require( 'express' )
-  , app              = express()
+'use strict'
+var express = require ('express')
+var app = express()
   , server           = require( 'http' ).createServer( app )
   , passport         = require( 'passport' )
   , util             = require( 'util' )
